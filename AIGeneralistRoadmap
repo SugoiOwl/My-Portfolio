@@ -1,0 +1,68 @@
+AI Generalist - Where to Get Started 
+
+This roadmap focuses on building an intuitive understanding and practical skills, ideal for someone who likes the "why" but not necessarily the "doing" of complex math.
+
+---
+
+Phase 1: Foundational Skills & Mindset (Focus on Intuition & Hands-on)
+
+1.  Solidify Python Fundamentals (If you haven't already):
+    * Goal: Be comfortable with Python syntax, data structures (lists, dictionaries), functions, classes, and basic file I/O.
+    * Key Focus: Practical coding ability.
+    * Resources: Codecademy, FreeCodeCamp, "Python for Everybody" (Coursera), "Automate the Boring Stuff with Python".
+
+2.  Gain Intuitive Math & Statistics Understanding:
+    * Goal: Understand the "what" and "why" of linear algebra, calculus, probability, and statistics as they apply to AI. Focus on conceptual grasp, not complex derivations.
+    * Key Focus: Intuition, visual understanding.
+    * Resources: 3Blue1Brown's "Essence of Linear Algebra/Calculus" (YouTube), StatQuest with Josh Starmer (YouTube), Khan Academy (for specific topic refreshers).
+
+3.  Introduction to Data Science Libraries (NumPy, Pandas, Matplotlib):
+    * Goal: Learn how to manipulate, analyze, and visualize data using these core Python libraries.
+    * Key Focus: Data handling and basic exploration.
+    * Resources: "Python Data Science Handbook" (free online), Kaggle Micro-Courses (Pandas, Data Visualization).
+
+---
+
+Phase 2: Core AI/ML Concepts & First Models (Practical Application)
+
+1.  Machine Learning Fundamentals (Conceptual & Practical):
+    * Goal: Understand what ML is, types of learning (supervised, unsupervised), common algorithms (e.g., linear regression, decision trees), and the ML workflow.
+    * Key Focus: Algorithm purpose, model training, evaluation metrics.
+    * Resources: Andrew Ng's Machine Learning Specialization (DeepLearning.AI on Coursera), "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" (book), Scikit-learn documentation.
+
+2.  Introduction to Deep Learning (Conceptual & Practical):
+    * Goal: Understand neural networks, their basic architectures, and the concepts of training deep models (e.g., backpropagation intuition).
+    * Key Focus: Neural network structure, deep learning applications.
+    * Resources: DeepLearning.AI's "Deep Learning Specialization" (Coursera), fast.ai "Practical Deep Learning for Coders" (code-first approach).
+
+---
+
+Phase 3: Building Your Portfolio & Broadening Scope (Generalist Path)
+
+1.  Start Your Project Portfolio (CRITICAL for demonstrating skills):
+    * Goal: Build 3-5 diverse AI projects. Don't just follow tutorials exactly; try to add unique elements or solve new problems.
+    * Key Focus: Practical application, problem-solving, showcasing skills.
+    * Ideas: House price prediction, image classification, sentiment analysis, recommendation system, simple generative AI project.
+    * Platforms: Kaggle (datasets), GitHub (code hosting with clear READMEs).
+
+2.  Explore AI Sub-fields (Broaden your Generalist Scope):
+    * Goal: Get a working understanding of basic concepts and common applications in Natural Language Processing (NLP) and Computer Vision.
+    * Key Focus: Understanding different AI capabilities.
+    * Resources: Hugging Face Transformers tutorials (for NLP), OpenCV tutorials (for Computer Vision), relevant modules within Deep Learning Specializations.
+
+3.  Learn Basic MLOps Concepts:
+    * Goal: Understand what's involved in deploying, monitoring, and maintaining AI models in real-world production environments.
+    * Key Focus: Model deployment, lifecycle management.
+    * Resources: MLOps Specialization courses (DeepLearning.AI), cloud provider ML service documentation (AWS SageMaker, Google Vertex AI, Azure ML).
+
+---
+
+Simultaneous Activities (Throughout Your Journey):
+
+* Networking: Connect with AI professionals on LinkedIn, attend virtual meetups.
+* Stay Curious: Read AI news, blogs (e.g., Towards Data Science), listen to podcasts.
+* Join Communities: Engage in online forums (Reddit), Discord servers, or local AI groups.
+
+---
+
+Remember: Consistency is key. Focus on understanding the "why" and "how" conceptually, and use
