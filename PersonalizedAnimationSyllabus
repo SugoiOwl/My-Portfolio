@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blender Animation Bootcamp</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; line-height: 1.6; max-width: 800px; margin: 20px auto; padding: 0 20px; background-color: #f8f9fa; color: #343a40; }
+        h1, h2, h3 { color: #212529; border-bottom: 2px solid #dee2e6; padding-bottom: 10px; }
+        h2 { margin-top: 40px; }
+        h3 { border-bottom: 1px solid #e9ecef; padding-bottom: 8px; font-size: 1.4em; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 12px; }
+        strong { color: #0056b3; }
+        code { background-color: #e9ecef; color: #c7254e; padding: 3px 6px; border-radius: 4px; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .week-block { background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 25px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .philosophy { background-color: #e9f7ff; border-left: 5px solid #007bff; padding: 15px 20px; margin-bottom: 30px; }
+        .checklist { list-style-type: none; padding-left: 0; }
+        .checklist li::before { content: "[ ] "; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>Blender Animation: The 4-Week Intensive Bootcamp</h1>
+
+    <div class="philosophy">
+        <p><strong>Your Philosophy:</strong> This plan is built on your principle: "It's better to finish and practice on 5 consecutive projects and learn as you go, rather than spend the same amount of time working on 1." We will focus on rapid learning, practical application, and moving on to the next challenge.</p>
+    </div>
+
+    <hr>
+
+    <h2>Week 1: Foundations Blitz (Total Time: ~6 Days)</h2>
+    <div class="week-block">
+        <p>This week is about rapidly refreshing your core knowledge and solidifying the fundamentals before we get into the new material.</p>
+
+        <h3>Days 1-2: Modeling, Assets & Shading Refresher</h3>
+        <ul>
+            <li><strong>Focus:</strong> A quick, hands-on review of clean modeling, asset management, and setting up basic materials. This is just to get warmed up.</li>
+            <li><strong>Assignment:</strong> Create a simple "still life" scene. Model a few basic objects (a bottle, a book, a piece of fruit), import one asset from Poly Haven, organize them into collections, and give everything a basic material using the Shader Editor.</li>
+        </ul>
+
+        <h3>Days 3-4: Lighting & Rendering</h3>
+        <ul>
+            <li><strong>Focus:</strong> Intentionally practice with the different light types, 3-point setups, and emissive materials. Experiment with the differences between Eevee (with Bloom) and Cycles.</li>
+            <li><strong>Assignment:</strong> Take your still life scene and light it three different ways: 1) a soft, bright, daytime look, 2) a dramatic, high-contrast "noir" look, and 3) a scene lit primarily by an emissive object.</li>
+        </ul>
+
+        <h3>Days 5-6: Camera & Composition</h3>
+        <ul>
+            <li><strong>Focus:</strong> Practice framing, focal lengths, depth of field, and using camera constraints (<code>Track To</code>). This is a skill you master over time, so we're just locking in the technical foundations.</li>
+            <li><strong>Assignment:</strong> Create five compelling still shots of your lit scene. One must be a wide shot, one a macro close-up with a shallow depth of field, and one must use a camera constraint to track an Empty as it moves.</li>
+        </ul>
+
+        <h3>Free Resources for the Week:</h3>
+        <ul>
+            <li><strong>Assets/HDRIs:</strong> <a href="https://polyhaven.com/" target="_blank">Poly Haven</a></li>
+            <li><strong>Reference/Inspiration:</strong> <a href="https://www.artstation.com/" target="_blank">ArtStation</a> (Search for "lighting" or "composition")</li>
+            <li><strong>Tutorials:</strong> Ian Hubert's "Lazy Tutorials" on YouTube are perfect for quick, powerful techniques.</li>
+        </ul>
+    </div>
+
+    <h2>Week 2: Character Animation Core (Total Time: ~6-7 Days)</h2>
+    <div class="week-block">
+        <p>This is where we dive into the heart of the matter. We'll group all the essential character animation skills into one focused week.</p>
+
+        <h3>Day 1: Rigging Mechanics (IK/FK)</h3>
+        <ul>
+            <li><strong>Focus:</strong> It's crucial to understand the puppet before you make it dance. This day is for a focused study of Armatures, the practical difference between IK and FK, and analyzing how pre-made rigs use bone constraints.</li>
+            <li><strong>Assignment:</strong> Download the "Snow" rig from Blender Studio. Spend a few hours just posing the character. Create a dynamic "action" pose and a subtle "at rest" pose. Switch the arms between IK and FK to feel the difference.</li>
+        </ul>
+
+        <h3>Days 2-4: Core Animation & Keyframe Mastery</h3>
+        <ul>
+            <li><strong>Focus:</strong> This is a critical block. Three days dedicated to hands-on work with the Dope Sheet and, most importantly, the <strong>Graph Editor</strong>. Practice keyframing, timing, spacing, and creating natural ease-in/ease-out.</li>
+            <li><strong>Assignment:</strong> Animate your rigged character performing a simple full-body action, like picking up a box from the floor and placing it on a table. Focus entirely on making the body mechanics feel believable. Don't worry about the face yet.</li>
+        </ul>
+
+        <h3>Days 5-6: Facial Animation & Expression</h3>
+        <ul>
+            <li><strong>Focus:</strong> Now that the body moves, let's give it life. Dive into using Shape Keys to blend expressions and perform basic lip-sync.</li>
+            <li><strong>Assignment:</strong> Using the same character, animate a close-up shot of them looking at an object with a neutral expression, then breaking into a smile. For a bonus challenge, have them say a single word like "Hello" and sync the mouth shapes.</li>
+        </ul>
+
+        <h3>Free Resources for the Week:</h3>
+        <ul>
+            <li><strong>Rigs:</strong> <a href="https://studio.blender.org/characters/" target="_blank">Blender Studio's Free Characters</a></li>
+            <li><strong>Animation Theory:</strong> <a href="https://www.youtube.com/watch?v=uDqjIdI4bF4" target="_blank">"The 12 Principles of Animation" by AlanBeckerTutorials</a></li>
+            <li><strong>Tutorial:</strong> "Blender Lip Sync Tutorial" by Pierrick Picaut.</li>
+        </ul>
+    </div>
+
+    <h2>Week 3: Production Workflow & Proceduralism (Total Time: ~7 Days)</h2>
+    <div class="week-block">
+        <p>This week is about moving from animating a single action to building a full shot. We'll also dive into the complex but powerful world of Geometry Nodes.</p>
+
+        <h3>Days 1-2: Professional Workflow & Camera</h3>
+        <ul>
+            <li><strong>Focus:</strong> This is the time-consuming stuff you need to get down pat. Practice the "Blocking -> Splining -> Polish" workflow. Work with reference material and implement advanced camera work like tracking.</li>
+            <li><strong>Assignment:</strong> Find a 5-10 second clip of an actor performing an interesting action. Using the video as a reference plane in Blender, animate your character to match the performance.</li>
+        </ul>
+
+        <h3>Days 3-4: The Mid-Project Sprint</h3>
+        <ul>
+            <li><strong>Focus:</strong> Apply your "5 projects are better than 1" philosophy. The goal here is <strong>completion, not perfection</strong>.</li>
+            <li><strong>Assignment:</strong> Create a 5-10 second animation from scratch that tells a micro-story. <strong>Requirement:</strong> It must involve a character, an object interaction, and a camera move. Set a hard 4-day limit and move on, no matter what.</li>
+        </ul>
+
+        <h3>Days 5-7: Geometry Nodes Deep Dive</h3>
+        <ul>
+            <li><strong>Focus:</strong> This is a dedicated block for the confusing but powerful topic you wanted to tackle. We will focus on the modern "Fields" workflow.</li>
+            <li><strong>Topics:</strong> Understanding the node tree, basic vector math, instancing objects, and using procedural noise textures to drive attributes like scale and rotation.</li>
+            <li><strong>Assignment:</strong> Create a plane and use Geometry Nodes to scatter rocks and grass across its surface. Control the density and scale of the grass using a procedural noise texture, so it looks natural and patchy.</li>
+            <li><strong>Free Resources:</strong>
+                <ul>
+                    <li><strong>Tutorial:</strong> Erindale's and Default Cube's channels on YouTube have some of the best advanced Geometry Nodes content.</li>
+                    <li><strong>Tutorial:</strong> Blender Guru's "Donut" tutorial has a good introduction to the concept via the sprinkles section.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <h2>Week 4: Simulations & Final Project (Total Time: ~6-9 Days)</h2>
+    <div class="week-block">
+        <p>The final week is for adding high-level effects and then bringing everything you've learned together into a single, polished portfolio piece.</p>
+
+        <h3>Day 1: Rigid Body & Particle Sims</h3>
+        <ul>
+            <li><strong>Focus:</strong> A one-day crash course in setting up rigid body collisions and basic particle effects (sparks, dust). Remember to bake!</li>
+            <li><strong>Assignment:</strong> Create a scene where a ball rolls down a ramp and shatters a wall made of bricks (or cubes). Have particles emit from the impact.</li>
+        </ul>
+
+        <h3>Day 2: Fluid & Gas Sims</h3>
+        <ul>
+            <li><strong>Focus:</strong> A one-day sprint on Mantaflow. Understand the core concepts of Domain, Flow objects, and Resolution Divisions.</li>
+            <li><strong>Assignment:</strong> Create a short, low-resolution simulation of a liquid pouring into a glass. The goal is to understand the workflow, not to create a photorealistic render.</li>
+        </ul>
+
+        <h3>Days 3-9: The Final Project</h3>
+        <ul>
+            <li><strong>Focus:</strong> This is where you "go hard in the paint." You have up to a week to synthesize all your skills.</li>
+            <li><strong>Assignment:</strong> Create one 15-20 second animation that is your best work to date.</li>
+            <li><strong>Checklist:</strong>
+                <ul class="checklist">
+                    <li>Tells a clear, albeit simple, story.</li>
+                    <li>Features a character with both full-body and facial animation.</li>
+                    <li>Incorporates at least one physics or simulation element.</li>
+                    <li>Uses intentional lighting and camera work.</li>
+                    <li>Includes an element you created with Geometry Nodes (even if it's just the environment).</li>
+                </ul>
+            </li>
+            <li>The goal is to create a piece you're proud to put in a portfolio, demonstrating the wide range of skills you've just mastered.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
